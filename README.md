@@ -1,15 +1,22 @@
 # MediCare+
 
-Protótipo acadêmico de um serviço digital para organização e acompanhamento de medicamentos.
+Aplicação acadêmica desenvolvida em Next.js e TypeScript para organizar medicamentos, horários, registros de doses e acompanhamento familiar.
 
-## Acesso ao sistema
+## Funcionalidades
 
-https://medicare-projeto-gustavo-0224.vercel.app
+- Cadastro e login por e-mail e senha com Supabase Auth.
+- Cadastro, edição, ativação e exclusão de medicamentos.
+- Um ou mais horários e dias da semana por medicamento.
+- Registro de doses tomadas, ignoradas ou perdidas.
+- Histórico dos últimos 30 dias.
+- Convites para acompanhamento familiar com acesso somente de leitura.
+- Lembretes locais do navegador enquanto o sistema estiver aberto.
 
-## Autores
+## Configuração
 
-- Gustavo Antonio Mendes Coelho
-- Pedro Pethes da Cunha Otonio
-- Bruno Gontijo Pereira
+1. Copie `.env.example` para `.env.local`.
+2. Preencha a URL e a chave publicável do projeto Supabase.
+3. Execute `npm install`.
+4. Execute `npm run dev`.
 
-Projeto desenvolvido para a disciplina de Administração da Produção do curso de Sistemas de Informação.
+O sistema é um projeto acadêmico e não substitui orientação médica ou farmacêutica.
