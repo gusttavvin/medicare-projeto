@@ -2,6 +2,10 @@
 
 Aplicação acadêmica desenvolvida em Next.js e TypeScript para organizar medicamentos, horários, registros de doses e acompanhamento familiar.
 
+**Sistema publicado:** https://medicare-projeto.vercel.app
+
+Trabalho de Administração da Produção desenvolvido por Gustavo Antonio Mendes Coelho, Pedro Pethes da Cunha Otonio e Bruno Gontijo Pereira.
+
 ## Funcionalidades
 
 - Cadastro e login por e-mail e senha com Supabase Auth.
